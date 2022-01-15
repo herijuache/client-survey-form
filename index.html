@@ -37,19 +37,19 @@
             <!-- Begin form-->
             <form id="survey-form" action="" method="get">
             <section>
-                <div>
+                <div class="form-group">
                     <label id="name-label" for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Enter your name" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <label id="email-label" for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Enter your email" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <label id="number-label" for="number">Age (optional)</label>
                     <input type="number" min="1" max="200" name="number" id="number" placeholder="Age">
                 </div>
-                <div>
+                <div class="form-group">
                     <p>What is your current occupation?</p>
                     <select name="dropdown" id="dropdown" required>
                         <option disabled selected value>Select current role</option>
@@ -60,7 +60,7 @@
                         <option value="other">Other</option>
                     </select>
                 </div>
-                <div>
+                <div class="form-group">
                     <p>Would you recommend our services to a friend?</p>
                     <label>
                         <input name="user-recommend" value="definitely" type="radio">Definitely
@@ -72,17 +72,17 @@
                         <input name="user-recommend" value="unsure" type="radio">Not sure
                     </label>
                 </div>
-                <div>
+                <div class="form-group"> 
                     <p>What is your favorite feature or service offered here at the center?</p>
                     <select  id="most-like" required>
                         <option disabled selected value>Select an option</option>
                         <option value="rr">Resource Rooom</option>
-                        <option value="tt">Free Typing Test</option>
+                        <option value="tt">Free Typing Tests</option>
                         <option value="workshops">Workshops</option>
                         <option value="case-managers">Case Managers</option>
                     </select>
                 </div>
-                <div>
+                <div class="form-group">
                     <p>What services did you use? (Check all that apply)</p>
                     <label>
                         <input type="checkbox" name="prefer" value="career-services">Career Services
@@ -106,7 +106,7 @@
                         <input type="checkbox" name="prefer" value="other">Other
                     </label>
                 </div>
-                <div>
+                <div class="form-group">
                     <p>Give us your feedback! What did we do well and what can we work on?</p>
                     <textarea class="input-textarea" name="comment-area" id="comments" placeholder="Enter your comment here..."></textarea>
                 </div>
