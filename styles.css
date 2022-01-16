@@ -1,5 +1,5 @@
 main {
-    background-image: linear-gradient(115deg, rgba(14, 177, 210, 0.5), rgba(52, 228, 234, 0.4)), url(/images/jason-goodman-Oalh2MojUuk-unsplash.jpg);
+    background-image: linear-gradient(115deg, rgba(14, 177, 210, 0.5), rgba(52, 228, 234, 0.4)), url(https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
